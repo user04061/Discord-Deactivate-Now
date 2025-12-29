@@ -1,0 +1,20 @@
+/**
+ * @name Discord Deactivate Now
+ * @author user04061
+ * @version 1
+ * @description CSS rule that removes the "Active Now" column and expands the friends list to fill the gap.
+ * @source https://github.com/user04061/Discord-Deactivate-Now
+ */
+
+[class*="nowPlayingColumn"] {
+  display: none !important;
+  width: 0 !important;
+  min-width: 0 !important;
+  max-width: 0 !important;
+}
+
+[class*="peopleColumn"] {
+  flex: 1 1 auto !important;
+  width: 100% !important;
+  max-width: 100% !important;
+}
